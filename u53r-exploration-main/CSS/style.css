@@ -1,0 +1,66 @@
+
+
+
+p {
+    font-size: 43px;
+    color: red;
+    text-align: center;
+    background-color: rgb(251, 255, 8);
+    margin: 50px;
+    padding: 30px;
+    border-radius: 100px;
+    border: 5px solid blue;
+    align-items: center;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+    line-height: 1.5;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    overflow: hidden;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    z-index: 1;
+    visibility: visible;
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+    transform: scale(1);
+    white-space: nowrap;
+    word-wrap: break-word;
+    clip-path: inset(0);
+    filter: brightness(1);
+    animation: none;
+    content: '';
+    direction: ltr;
+    float: none;
+    clear: none;
+    vertical-align: baseline;
+    writing-mode: horizontal-tb;
+    perspective: 1000px;
+    backface-visibility: hidden;
+    user-select: none;
+    pointer-events: auto;
+    resize: none;
+    scroll-behavior: smooth;
+    will-change: auto;
+    mix-blend-mode: normal;
+    isolation: auto;
+    grid-template-columns: none;
+    grid-template-rows: none;
+    grid-gap: 0;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    order: 0;
+    align-self: auto;
+    justify-self: auto;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    clip: auto;
+    caret-color: auto;
+    accent-color: auto;
+    scrollbar-width: auto;
+    scrollbar-color: auto;
+}

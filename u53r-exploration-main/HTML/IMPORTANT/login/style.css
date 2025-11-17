@@ -1,0 +1,59 @@
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1bbd31af;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.login-box {
+    background: rgb(20, 32, 143);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    text-align: center;
+    animation: slideIn 0.5s ease-out;
+}
+.login-box input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.login-box button {
+    width: 100%;
+    background: #3182ce;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.login-box button:hover {
+    background: #2c5282;
+}
+.error-msg {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+    display: none;
+}
+@keyframes slideIn {
+    from { transform: translateY(-50px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+@keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(5px); }
+    75% { transform: translateX(-5px); }
+}
+.shake {
+    animation: shake 0.3s ease-in-out;
+}
