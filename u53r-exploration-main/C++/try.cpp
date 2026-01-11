@@ -1,102 +1,56 @@
 
-//Print "Hello, World!" to the console
 
 
+
+
+// Number 1: Printing My Name and Favorite Color
 /*
 #include <iostream>
-using namespace std;
+
 
 int main() {
-    cout << "Hello, World!" <<endl;
-    cout << "This is a C++ program using the C++17 standard." << endl;
+    std::cout << "My name is Ramil, " << "\n";
+    std::cout << "My Favorite Color is Blue.";
     return 0;
 }
 */
 
 
 
-
-/*
-#include <iostream>
+// Number 2: For Loop from 1 to 10
+/*#include <iostream>
 
 int main() {
-    int number;
-    std::cout << "Enter an integer: ";
-    std::cin >> number;
-    std::cout << "You entered: " << number << '\n';
-    return 0;
+    for (int i = 1; i < 11; i++) {
+    std::cout << i << "\n";
+}
+
 }
 */
 
 
 
+// Number 3: Use variable and Print
 /*
 #include <iostream>
-using namespace std;
-
-int main() {
-    int n1 = 10;
-    int n2 = 4;
-    float add = n1 % n2;
-    cout << "Total: " << add;
-}*/
-
-
-/*
-#include <iostream>
-using namespace std;
-
-int main() {
-    int day = 3;
-
-    switch (day) {
-        case 1:
-            cout << "Lunes\n";
-            break;
-        case 2:
-            cout << "Martes\n";
-            break;
-        case 3:
-            cout << "Miyerkules\n";
-            break;
-        default:
-            cout << "Hindi kilalang araw\n";
-    }
-
-    return 0;
-}
+ int main() {
+    std::string name = "Ramil";
+    std::cout << name << "\n";
+    std::cout << "That's My Name!";
+ }
 */
 
 
 
 
+// User input and Print
 #include <iostream>
 
-// A simple function to add two numbers
-int add(int a, int b) {
-    return a + b;
-}
-
-class Calculator {
-public:
-    // A member function to multiply two numbers
-    int multiply(int a, int b) {
-        return a * b;
-    }
-};
-
 int main() {
-    int x = 5;
-    int y = 3;
-
-    // Using the standalone function 'add'
-    int sum = add(x, y);
-    std::cout << "Sum: " << sum << '\n';
-
-    // Using a class and member function
-    Calculator calc;
-    int product = calc.multiply(x, y);
-    std::cout << "Product: " << product << '\n';
-
+    std::string name;
+    std::cout << "Enter your name: ";
+    std::cin >> name;
+    std::cout << "Hello, " << name << "!" << std::endl;
     return 0;
+
 }
