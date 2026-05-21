@@ -3,6 +3,6 @@
 
 
 
+age = 21
 
-import keyword
-print(keyword.kwlist)
+print("My age is ", f{age})
