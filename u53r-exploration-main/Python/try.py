@@ -1,9 +1,7 @@
 
 
 
+name = "Jonalyn Petalio"
 
 
-
-
-
-#hello
+print(name[-4:][::-1])
