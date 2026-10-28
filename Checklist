@@ -1,0 +1,311 @@
+PHASE 1: Problem Discovery
+[ ] Identify the problem
+[ ] Identify the affected users and stakeholders
+[ ] Understand the current process
+[ ] Identify pain points and root causes
+[ ] Determine whether software is the appropriate solution
+[ ] Research existing solutions and alternatives
+[ ] Gather initial observations and evidence
+
+PHASE 2: Feasibility Study
+[ ] Assess technical feasibility
+[ ] Assess available time, budget, skills, and resources
+[ ] Identify legal, privacy, accessibility, and security considerations
+[ ] Identify major risks and dependencies
+[ ] Evaluate possible solutions
+[ ] Decide whether to proceed, revise, or stop
+
+PHASE 3: Project Definition
+[ ] Choose a project title
+[ ] Write the problem statement
+[ ] Define the project purpose
+[ ] Define measurable objectives
+[ ] Identify target users and stakeholders
+[ ] Define the project scope
+[ ] Define what is out of scope
+[ ] Document assumptions and limitations
+[ ] Define success criteria
+[ ] Identify initial deliverables
+
+PHASE 4: Requirements Gathering
+[ ] Gather user and stakeholder needs
+[ ] List functional requirements
+[ ] List non-functional requirements
+[ ] Define business rules
+[ ] Define inputs, processes, and expected outputs
+[ ] Identify data requirements
+[ ] Define user roles and permissions
+[ ] Identify error and exception scenarios
+[ ] Identify accessibility and usability requirements
+[ ] Prioritize requirements
+[ ] Write user stories or use cases where useful
+[ ] Define acceptance criteria
+
+PHASE 5: Requirements Analysis and Approval
+[ ] Clarify ambiguous requirements
+[ ] Resolve conflicting requirements
+[ ] Identify missing requirements
+[ ] Map user workflows
+[ ] Identify edge cases
+[ ] Check that requirements are testable
+[ ] Assess requirement feasibility
+[ ] Document requirements and constraints
+[ ] Review requirements with stakeholders or instructor
+[ ] Obtain approval or agreement where required
+[ ] Establish a requirements baseline
+[ ] Define how future changes will be evaluated and approved
+
+PHASE 6: Project Planning
+[ ] Choose a development approach, such as Waterfall or Agile
+[ ] Break the project into milestones and tasks
+[ ] Estimate time and effort
+[ ] Set deadlines and priorities
+[ ] Identify task dependencies
+[ ] Assign responsibilities if working in a team
+[ ] Choose task-tracking and communication tools
+[ ] Create a risk register with mitigation plans
+[ ] Plan progress reviews
+[ ] Define the project's Definition of Done
+
+PHASE 7: Technical Decisions
+[ ] Choose the programming language
+[ ] Choose frameworks and libraries if needed
+[ ] Choose the runtime and supported platforms
+[ ] Choose the data storage method
+[ ] Choose the IDE and development tools
+[ ] Evaluate dependencies and third-party services
+[ ] Check compatibility requirements
+[ ] Review licenses and maintenance risks
+[ ] Document important technical decisions
+
+PHASE 8: Solution Analysis
+[ ] Identify inputs, processes, and outputs using IPO where useful
+[ ] Break the problem into smaller subproblems
+[ ] Identify variables and data types
+[ ] Determine required data structures
+[ ] Define the main algorithm
+[ ] Identify conditions, loops, and calculations
+[ ] Identify validation rules
+[ ] Identify possible failures and error handling
+[ ] Determine function, module, or class responsibilities
+[ ] Prepare initial test scenarios
+
+PHASE 9: System and Solution Design
+[ ] Design the solution architecture appropriate to project size
+[ ] Write pseudocode where useful or required
+[ ] Create a flowchart where useful or required
+[ ] Design functions, modules, and class interfaces
+[ ] Design data models and relationships
+[ ] Design the database schema if applicable
+[ ] Design APIs and data contracts if applicable
+[ ] Create user flows and wireframes if there is a UI
+[ ] Create a prototype if useful
+[ ] Design navigation and responsive layouts if applicable
+[ ] Consider accessibility
+[ ] Design authentication and authorization if applicable
+[ ] Plan logging and error reporting
+[ ] Plan backup and recovery for important data
+[ ] Document technical and design decisions
+
+PHASE 10: Design Review and Validation
+[ ] Check the design against the requirements
+[ ] Check the algorithm using sample inputs
+[ ] Verify expected outputs manually or with trace tables
+[ ] Review edge cases
+[ ] Review maintainability and complexity
+[ ] Assess security and privacy risks
+[ ] Review usability and accessibility
+[ ] Revise the design where needed
+[ ] Obtain design approval if required
+
+PHASE 11: Development Environment and Repository Setup
+[ ] Create the project directory
+[ ] Initialize a Git repository or required version control
+[ ] Choose a clear folder and file structure
+[ ] Create the initial README
+[ ] Install the required language runtime and tools
+[ ] Create an isolated environment if appropriate
+[ ] Install and manage dependencies
+[ ] Create a dependency manifest or lockfile where appropriate
+[ ] Configure formatting and linting tools where useful
+[ ] Configure static analysis or type checking where appropriate
+[ ] Configure environment variables safely
+[ ] Create an example configuration file without secrets
+[ ] Create a .gitignore file
+[ ] Configure backups or remote repository access where appropriate
+[ ] Verify that the initial project runs
+
+PHASE 12: Implementation Planning
+[ ] Break the design into small implementation tasks
+[ ] Choose the order of implementation
+[ ] Identify task dependencies
+[ ] Define function and module interfaces
+[ ] Prepare sample data and test fixtures
+[ ] Prepare test cases and expected results
+[ ] Decide what needs unit, integration, and system testing
+[ ] Define code conventions and review expectations
+
+PHASE 13: Coding and Implementation
+[ ] Implement one small feature or module at a time
+[ ] Follow the approved requirements and design
+[ ] Use meaningful variable, function, and class names
+[ ] Follow appropriate coding conventions
+[ ] Use suitable data structures and algorithms
+[ ] Write reusable functions where useful
+[ ] Apply appropriate object-oriented or procedural design
+[ ] Validate user input
+[ ] Implement error handling
+[ ] Avoid unnecessary duplication and complexity
+[ ] Add comments for non-obvious logic where useful
+[ ] Keep secrets out of source code
+[ ] Use safe handling of files, databases, and external input
+[ ] Commit changes using version control
+[ ] Run the program frequently
+[ ] Update documentation when behavior changes
+
+PHASE 14: Continuous Testing and Debugging
+[ ] Run the program after meaningful changes
+[ ] Test individual functions and modules
+[ ] Test normal inputs
+[ ] Test invalid and missing inputs
+[ ] Test boundary values and edge cases
+[ ] Compare actual outputs against expected results
+[ ] Test error handling
+[ ] Test file and database operations if applicable
+[ ] Test module integration
+[ ] Test API behavior if applicable
+[ ] Test authentication and authorization if applicable
+[ ] Reproduce reported bugs
+[ ] Identify root causes
+[ ] Fix defects without introducing regressions
+[ ] Rerun relevant tests after each fix
+[ ] Record test results and unresolved bugs
+
+PHASE 15: Code Review and Quality Assurance
+[ ] Review code correctness and readability
+[ ] Check naming, structure, and maintainability
+[ ] Review duplicated or unnecessarily complex logic
+[ ] Run formatting and linting checks where available
+[ ] Run static analysis or type checks where appropriate
+[ ] Review dependencies and known vulnerabilities
+[ ] Check error handling and sensitive-data exposure
+[ ] Perform peer review where appropriate
+[ ] Perform regression testing
+[ ] Refactor when it improves maintainability
+[ ] Confirm that acceptance criteria are met
+[ ] Record outstanding quality issues
+
+PHASE 16: Security, Privacy, and Compliance Verification
+[ ] Review the system's threat model where appropriate
+[ ] Check access controls and permissions
+[ ] Verify secure handling of credentials and secrets
+[ ] Check input validation and output encoding
+[ ] Review database queries and file access for unsafe operations
+[ ] Check data minimization and retention practices
+[ ] Verify encryption requirements where applicable
+[ ] Review third-party components and licenses
+[ ] Run suitable security checks for the project's risk level
+[ ] Confirm applicable privacy and legal obligations
+[ ] Fix or formally assess security findings before release
+
+PHASE 17: Documentation and User Instructions
+[ ] Complete the README
+[ ] Document prerequisites and installation
+[ ] Document how to configure and run the program
+[ ] Document features and usage instructions
+[ ] Document configuration variables without exposing secrets
+[ ] Document dependencies and setup requirements
+[ ] Document APIs where applicable
+[ ] Document database setup and migrations where applicable
+[ ] Document known limitations
+[ ] Prepare pseudocode and flowcharts if required
+[ ] Prepare test cases and test results
+[ ] Prepare user manuals or technical documentation where required
+[ ] Prepare project report and presentation if required
+[ ] Prepare screenshots or demonstration materials if required
+[ ] Update documentation to match the actual implementation
+
+PHASE 18: Build and Packaging
+[ ] Choose the appropriate build or packaging method
+[ ] Generate the application or submission package
+[ ] Include required source files and supporting assets
+[ ] Include dependency and configuration templates
+[ ] Include required database migrations or sample data
+[ ] Exclude credentials, temporary files, caches, and unnecessary local environments
+[ ] Set a version number where appropriate
+[ ] Prepare release notes
+[ ] Verify the package contents
+[ ] Test installation or execution in a clean environment where feasible
+[ ] Verify that another person can follow the setup instructions
+
+PHASE 19: Release Readiness and Acceptance
+[ ] Confirm all required features are complete
+[ ] Verify acceptance criteria
+[ ] Confirm relevant tests pass
+[ ] Review open bugs and known limitations
+[ ] Confirm security and privacy checks are complete for the project's risk level
+[ ] Verify backups and recovery procedures where necessary
+[ ] Confirm deployment configuration
+[ ] Prepare rollback or recovery steps where appropriate
+[ ] Obtain required stakeholder or instructor approval
+[ ] Confirm the exact version to be delivered
+
+PHASE 20: Deployment or Final Submission
+[ ] Choose the target environment
+[ ] Configure production settings securely if deploying
+[ ] Provision hosting, database, and infrastructure if applicable
+[ ] Deploy the approved version or prepare the school submission
+[ ] Run smoke tests in the target environment
+[ ] Verify application access and core features
+[ ] Check data handling and configuration
+[ ] Verify the correct files were submitted
+[ ] Provide installation and usage instructions
+[ ] Provide a demonstration or handover if required
+[ ] Record the version and delivery date
+
+PHASE 21: Operations and Monitoring
+[ ] Monitor application errors and availability if deployed
+[ ] Review logs and alerts
+[ ] Track performance and resource usage where relevant
+[ ] Collect user feedback
+[ ] Protect logs and avoid recording unnecessary sensitive data
+[ ] Verify backup completion where applicable
+[ ] Periodically test data restoration where appropriate
+[ ] Maintain operational and incident-response instructions
+[ ] Respond to incidents and document their resolution
+
+PHASE 22: Maintenance and Improvement
+[ ] Fix reported bugs
+[ ] Patch security vulnerabilities
+[ ] Update dependencies responsibly
+[ ] Maintain compatibility with supported platforms
+[ ] Improve performance when justified
+[ ] Improve usability based on feedback
+[ ] Add approved features
+[ ] Run regression tests after changes
+[ ] Update documentation and release notes
+[ ] Release and verify updates
+[ ] Reassess risks after significant changes
+
+PHASE 23: Project Review and Closure
+[ ] Compare final results with the original objectives
+[ ] Confirm final deliverables are complete
+[ ] Obtain final acceptance where required
+[ ] Record lessons learned
+[ ] Review schedule, quality, and project risks
+[ ] Document remaining issues and technical debt
+[ ] Archive code, documents, and important decisions
+[ ] Transfer ownership and access where applicable
+[ ] Remove obsolete credentials and access
+[ ] Plan continued support or formal closure
+
+PHASE 24: Retirement and Decommissioning
+[ ] Decide when the software should be retired
+[ ] Notify affected users and stakeholders
+[ ] Plan migration or export of needed data
+[ ] Back up or retain records according to applicable requirements
+[ ] Revoke obsolete accounts, tokens, and credentials
+[ ] Remove obsolete services and infrastructure
+[ ] Delete data securely when authorized and appropriate
+[ ] Update documentation and asset records
+[ ] Confirm decommissioning is complete
