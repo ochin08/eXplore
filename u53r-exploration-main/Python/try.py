@@ -1,7 +1,8 @@
 
 
 
-name = "Jonalyn Petalio Binadag"
 
+is_blocked = False
 
-print(name)
+if not is_blocked:
+    print("Account Active")
