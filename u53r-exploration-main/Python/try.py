@@ -2,7 +2,6 @@
 
 
 
-is_blocked = False
+name = "Ramil"
 
-if not is_blocked:
-    print("Account Active")
+print("Hello, " + name + "!")
