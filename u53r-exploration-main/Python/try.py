@@ -4,4 +4,4 @@
 
 name = "Ramil"
 
-print("Hello, " + name + "!")
+print("Hello, " + name + ".")
