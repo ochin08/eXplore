@@ -1,0 +1,13 @@
+
+
+item_id,item_name,category,location,date_reported,status,estimated_value,contact_email
+ITM-0001,Black Umbrella,Personal Item,Library,2026-11-01,Lost,250.00,student1@example.com
+ITM-0002,Blue Water Bottle,Personal Item,Computer Laboratory,2026-11-02,Found,150.00,student2@example.com
+ITM-0003,Student ID,Identification,Registrar Office,2026-11-03,Found,0.00,
+ITM-0004,Black Backpack,Bag,Classroom 101,2026-11-04,Lost,1200.00,student4@example.com
+ITM-0005,Wireless Earbuds,Electronic Device,Library,2026-11-05,Found,1800.00,student5@example.com
+ITM-0006,Blue Notebook,School Supply,Classroom 202,2026-11-06,Claimed,80.00,
+ITM-0007,Scientific Calculator,Electronic Device,Computer Laboratory,2026-11-07,Lost,650.00,student7@example.com
+ITM-0008,Silver Keychain,Personal Item,Cafeteria,2026-11-08,Found,100.00,student8@example.com
+ITM-0009,Black Wallet,Personal Item,Gymnasium,2026-11-09,Lost,500.00,student9@example.com
+ITM-0010,White Flash Drive,Electronic Device,Library,2026-11-10,Claimed,300.00,
